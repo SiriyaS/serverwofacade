@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package serverwofacade;
+package myfacade;
 
 /**
  *
@@ -32,8 +32,8 @@ public class ScheduleServer {
     public void releaseProcesses(){
         System.out.println("Releasing processes...");
     }
-    public void destory(){
-        System.out.println("Destorying...");
+    public void destroy(){
+        System.out.println("Destroying...");
     }
     public void destroySystemObjects(){
 	System.out.println("Destroying system objects...");
